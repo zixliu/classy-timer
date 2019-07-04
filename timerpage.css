@@ -1,0 +1,18 @@
+body {
+    background-color: mistyrose;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh;
+    align-items: center;
+    justify-items: center;
+}
+
+.alarmTime {
+    font-size: 124pt;
+    font-family: Baskerville;
+    color: black;
+    text-shadow: 2px 2px gainsboro;
+}
