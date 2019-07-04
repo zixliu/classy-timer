@@ -1,14 +1,13 @@
 {
-  "name": "Getting Started Example",
+  "name": "Classy timer",
   "version": "1.0",
-  "description": "Build an Extension!!!",
+  "description": "A simple count-down timer",
   "permissions": ["activeTab", "declarativeContent", "storage","tabs"],
-  "options_page": "options.html",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
-  "page_action": {
+  "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
       "16": "images/get_started16.png",
